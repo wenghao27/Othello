@@ -1,0 +1,26 @@
+﻿Build started 10/19/2016 9:38:14 PM.
+     1>Project "C:\Users\hao\Documents\Visual Studio 2013\Projects\OthelloGame2\OthelloGame2\OthelloGame2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OthelloBoard.cpp OthelloMove.cpp OthelloView.cpp main.cpp
+         OthelloMove.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\hao\documents\visual studio 2013\projects\othellogame2\othellogame2\main.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\hao\documents\visual studio 2013\projects\othellogame2\othellogame2\main.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+         OthelloBoard.cpp
+     1>c:\users\hao\documents\visual studio 2013\projects\othellogame2\othellogame2\othelloboard.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         OthelloView.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hao\Documents\Visual Studio 2013\Projects\OthelloGame2\Debug\OthelloGame2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hao\Documents\Visual Studio 2013\Projects\OthelloGame2\Debug\OthelloGame2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hao\Documents\Visual Studio 2013\Projects\OthelloGame2\Debug\OthelloGame2.lib" /MACHINE:X86 Debug\main.obj
+         Debug\OthelloBoard.obj
+         Debug\OthelloMove.obj
+         Debug\OthelloView.obj
+         OthelloGame2.vcxproj -> C:\Users\hao\Documents\Visual Studio 2013\Projects\OthelloGame2\Debug\OthelloGame2.exe
+     1>Done Building Project "C:\Users\hao\Documents\Visual Studio 2013\Projects\OthelloGame2\OthelloGame2\OthelloGame2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.69
